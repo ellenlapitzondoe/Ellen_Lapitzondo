@@ -1,0 +1,98 @@
+body{background-color: rgb(214, 156, 243); 
+} /* Define el color del fondo en inicio*/
+
+.carousel-control-next {
+    background-color: #020202; 
+    border-color: #090909; 
+  } /* color del carrusel para mover al siguiente */
+  
+.carousel-control-prev {
+    background-color: #020202; 
+    border-color: #090909; 
+  } /* color del carrusel para mover al anterior */
+
+.card-img-top {
+    width: 50%; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block;} /* Asegura que la imagen se muestre como un bloque */
+
+
+.titulo {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 30vh; /* Altura del contenedor igual al 100% del viewport */
+}
+
+.presentacion{ text-align: center; /* Centra el texto horizontalmente */
+    color: #ffffff; /* Color de texto blanco */
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente lúdica */
+    font-size: 36px; /* Tamaño del texto */
+    background-color: #c32be2; /* Color de fondo violeta */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */ }
+
+
+.price-cloud {
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #f00cc6; /* Color del fondo de la nube */
+}
+
+.price {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #2187f3; 
+    text-align: center;
+    margin: 0;
+}
+
+.background-image {
+    background-image: url('womotro.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para el contenedor del formulario */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e8f0fe; /* Color de fondo del globo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+.cuerpito {background-image: url(oferta3.avif); 
+    background-size: cover;
+    background-position-x: center;
+} 
+
+.ofertacarta {
+    width: 100% !important; /* Establece el ancho de la imagen al 100%, con !important */
+    height: auto !important; /* Altura automática para mantener la proporción, con !important */
+    max-width: 300px !important; /* Ancho máximo de la imagen, con !important */
+    margin: 0 auto !important; /* Centra horizontalmente la imagen, con !important */
+    } 
